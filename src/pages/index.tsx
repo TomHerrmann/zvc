@@ -1,7 +1,11 @@
 import React from 'react';
+import Layout from '../components/Layout';
+import Hero from '../components/Hero';
 
-const IndexPage = () => {
-  return <h1>Zero Vision Cinema</h1>;
-};
-
-export default IndexPage;
+export default function IndexPage() {
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
+}
