@@ -9,12 +9,6 @@ const StyledLayout = styled.div`
   margin: 0 0;
   display: flex;
   flex-direction: column;
-  #main-content {
-    width: 100%;
-    max-width: 62.5rem;
-    margin: 0 auto;
-    padding: 0 2.5rem;
-  }
 `;
 
 type Props = { children: ReactNode };
@@ -24,7 +18,7 @@ export default function Layout({ children }: Props) {
     <StyledLayout>
       <GlobalStyle />
       <Header />
-      <main id="main-content">{children}</main>
+      <main>{children}</main>
       {/* <Footer /> */}
     </StyledLayout>
   );

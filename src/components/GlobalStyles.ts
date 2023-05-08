@@ -12,7 +12,14 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: ${COLORS.darkGray};
+    background-image: linear-gradient(
+      to right top,
+      #b8b1b3,
+      #979095,
+      #747078,
+      #52535c,
+      #303841
+    );
     color: ${COLORS.lightGray};
     font-family: Open-Sans, Helvetica, Sans-Serif;
     .title {

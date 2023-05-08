@@ -7,12 +7,12 @@ const SyledHeader = styled.header`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 5vh;
-  margin: 12px 0;
+  height: 3em;
+  position: sticky;
 `;
 
 const H1 = styled.h1`
-  margin-left: 20px;
+  margin: 20px;
 `;
 
 const LinkGroup = styled.div`
@@ -39,7 +39,6 @@ export default function Header() {
       </H1>
       <LinkGroup>
         <Link href="#">Home</Link>
-        <Link href="#">Upcoming Movies</Link>
         <Link href="#">Buy Tickets</Link>
         <Link href="#">Podcast</Link>
         <Link href="#">About Us</Link>
